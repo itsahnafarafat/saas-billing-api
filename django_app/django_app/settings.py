@@ -25,8 +25,12 @@ SECRET_KEY = "django-insecure-qb#r95glnw7ye$d+cs9f^29cgmck2pd%sb-bnmpd6mefnkv5!z
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://*.preview.app.github.dev",  # For GitHub Codespaces
+    "https://localhost:8000",            # Localhost over HTTPS
+]
 
 # Application definition
 
