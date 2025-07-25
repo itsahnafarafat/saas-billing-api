@@ -109,11 +109,9 @@ docker run -p 8000:8000 saas-billing-api
 
 ### API - Plans Endpoint
 
-![Plans Endpoint](<img width="1594" height="768" alt="Screenshot 2025-07-25 101405" src="https://github.com/user-attachments/assets/d4cb8f5b-75c1-4517-87c3-595edbc873af" />
-)
+![Plans Endpoint](https://drive.google.com/file/d/1lmIR3MOwV89zX5SMfZ_dGCMr3W-Qzbt7/view?usp=sharing)
 
 ### API - Invoices Endpoint
 
-![Invoices Endpoint](<img width="1592" height="771" alt="Screenshot 2025-07-25 101327" src="https://github.com/user-attachments/assets/b558e0dd-68e6-47bf-b13a-ad2db6d22951" />
-)
+![Invoices Endpoint](https://drive.google.com/file/d/1AlNdKRXkfcmpxXxrtmiIN65tiw3-D2Tu/view?usp=sharing)
 
