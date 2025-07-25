@@ -109,9 +109,9 @@ docker run -p 8000:8000 saas-billing-api
 
 ### API - Plans Endpoint
 
-![Plans Endpoint](https://drive.google.com/file/d/1lmIR3MOwV89zX5SMfZ_dGCMr3W-Qzbt7/view?usp=sharing)
+https://drive.google.com/file/d/1lmIR3MOwV89zX5SMfZ_dGCMr3W-Qzbt7/view?usp=sharing
 
 ### API - Invoices Endpoint
 
-![Invoices Endpoint](https://drive.google.com/file/d/1AlNdKRXkfcmpxXxrtmiIN65tiw3-D2Tu/view?usp=sharing)
+https://drive.google.com/file/d/1AlNdKRXkfcmpxXxrtmiIN65tiw3-D2Tu/view?usp=sharing
 
