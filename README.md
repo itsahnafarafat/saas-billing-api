@@ -12,6 +12,7 @@ It provides endpoints for **plans, subscriptions, invoices, and payments**, maki
 * **Invoices & Payments** – Track billing history and payment statuses.
 * **Secure REST Endpoints** – Authentication & permission-based access.
 * **Scalable Deployment** – Dockerized and deployed on **Railway** for production use.
+* **Automated Unit Testing** – Ensures reliability and correctness of models and API endpoints.
 
 ---
 
