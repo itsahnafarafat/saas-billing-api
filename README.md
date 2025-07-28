@@ -31,7 +31,7 @@ Base URL:
 
 ```
 
-[https://saas-billing-api-production.up.railway.app/api/billing/](https://saas-billing-api-production.up.railway.app/api/billing/)
+https://saas-billing-api-production.up.railway.app/api/billing/
 
 ````
 
