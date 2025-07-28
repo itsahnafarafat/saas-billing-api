@@ -1,6 +1,6 @@
 # SaaS Billing API
 
-A **production-ready SaaS Billing API** built with **Django REST Framework** for managing subscription-based services.
+A **production-ready SaaS Billing API** built with **Django REST Framework** for managing subscription-based services.  
 It provides endpoints for **plans, subscriptions, invoices, and payments**, making it easy to integrate with SaaS platforms.
 
 ---
@@ -18,10 +18,10 @@ It provides endpoints for **plans, subscriptions, invoices, and payments**, maki
 
 ## Tech Stack
 
-* **Backend:** Python, Django, Django REST Framework
-* **Database:** SQLite (development), PostgreSQL (production-ready)
-* **Deployment:** Docker, Railway
-* **Authentication:** Django's built-in authentication
+* **Backend:** Python, Django, Django REST Framework  
+* **Database:** SQLite (development), PostgreSQL (production-ready)  
+* **Deployment:** Docker, Railway  
+* **Authentication:** Django's built-in authentication  
 
 ---
 
@@ -30,21 +30,23 @@ It provides endpoints for **plans, subscriptions, invoices, and payments**, maki
 Base URL:
 
 ```
-https://saas-billing-api-production.up.railway.app/api/billing/
-```
+
+[https://saas-billing-api-production.up.railway.app/api/billing/](https://saas-billing-api-production.up.railway.app/api/billing/)
+
+````
 
 Available endpoints:
 
-* `plans/` – List all subscription plans
-* `subscriptions/` – View and create subscriptions
-* `invoices/` – View billing invoices
-* `payments/` – View payment history
+* `plans/` – List all subscription plans  
+* `subscriptions/` – View and create subscriptions  
+* `invoices/` – View billing invoices  
+* `payments/` – View payment history  
 
 Example request:
 
 ```bash
 GET /api/billing/plans/
-```
+````
 
 Example response:
 
@@ -103,6 +105,31 @@ To build and run the Docker container locally:
 docker build -t saas-billing-api .
 docker run -p 8000:8000 saas-billing-api
 ```
+
+---
+
+## ✅ Running Tests
+
+This project includes unit tests to ensure reliability of both model logic and REST API functionality.
+
+### Run all tests:
+
+```bash
+python django_app/manage.py test
+```
+
+### Run with test coverage:
+
+```bash
+coverage run --source='.' django_app/manage.py test
+coverage report
+```
+
+### What’s covered:
+
+* `PlanModelTest`: Validates model creation and field accuracy
+* `BillingAPITest`: Validates key API endpoints (create, retrieve, etc.)
+
 
 ---
 
